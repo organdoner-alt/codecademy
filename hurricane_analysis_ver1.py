@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[85]:
-
-
 # names of hurricanes
 names = ['Cuba I', 'San Felipe II Okeechobee', 'Bahamas', 'Cuba II', 'CubaBrownsville', 'Tampico', 'Labor Day', 'New England', 'Carol', 'Janet', 'Carla', 'Hattie', 'Beulah', 'Camille', 'Edith', 'Anita', 'David', 'Allen', 'Gilbert', 'Hugo', 'Andrew', 'Mitch', 'Isabel', 'Ivan', 'Emily', 'Katrina', 'Rita', 'Wilma', 'Dean', 'Felix', 'Matthew', 'Irma', 'Maria', 'Michael']
 
@@ -169,10 +163,3 @@ def get_damage_rating(hurricane_dict):
     damage_rating = {0:zero, 1:one, 2:two, 3:three, 4:four, 5:five}
     return damage_rating
 damage_rating = get_damage_rating(hurricane_dict)
-
-
-# In[ ]:
-
-
-
-
